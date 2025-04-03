@@ -1,0 +1,42 @@
+.msg{
+    color: #FF9C9C;
+    font-size: 40px;
+    font-family: "ABeeZee", sans-serif;
+    text-shadow: 2px 2px 4px #FF9C9C;
+}
+
+.printing{
+    float: left;
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    height: 100px;
+    width: 300px;
+}
+
+.stripBox{
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    
+}
+
+.outerBox{
+    height: 600px;
+    width: 340px;
+    border: 30px solid #FFD8D9;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.innerBox{
+    height: 540px;
+    width: 280px;
+    background-color: 10px solid #FF9C9C;
+    border: 17px solid #FF9C9C;
+    box-shadow: inset 0 0 10px black;
+    position: absolute;
+    bottom: 0.25px;
+    top: 0.25;
+}

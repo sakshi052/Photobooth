@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
+    background-color: #FFE5E6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1_login_page {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     /* Full viewport height */
+}
+
+.pg1_title
+ {
+    font-family:  "Italianno", cursive;
+    color: #FF9C9C;
+    font-size: 120px;
+}
+
+.pg1_ip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.pg1_email_heading ,.pg1_password_heading{
+    font-family: "Italianno", cursive;
+    font-size: 40px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+}
+
+.pg1_form{
+    margin-bottom: 20px;
+}
+
+#pg1_login_button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px; /* Fully rounded */
+    font-size: 40px;
+    font-family: "Italianno", cursive;
+    cursor: pointer;
+    box-shadow: #FF9C9C;
+}
+
+#pg1_register{
+    margin-top: 10px;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    background-color: #FFE5E6;
+    margin: 0;
+    padding: 0;
+}
+
+.pg3-input{
+    float: left;
+    height: 550px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    padding: 10px;
+}
+
+
+
+.pg3_hands{
+    height: 400px;
+    width: 400px;
+}
+
+.pg3-upload{
+    float: right;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
+    
+    
+}
+
+.hr{
+    height: 4px;
+    width: 400px;
+    background-color: #FF9C9C;
+}
+
+.pg3-btn{
+    height: 60px;
+    width: 200px;
+    background-color:#DBFBC5;
+    border: 2px solid #00F500;
+    border-radius: 4px;
+    color: #00F500;
+    margin-left: 90.5px;
+    }
+
+.pg3-btn:hover,
+.pg3-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.pg3-btn {
+  --color: #00F500;
+  --hover: #00F500;
+}
+
+.pg3-blank{
+        width: 400px;
+        height: 40px;
+        border: none;
+        border-bottom:4px #FF9C9C solid;
+        font-size: 50px;
+        padding: 5px;
+        outline: none;
+        background: transparent;
+        font-family: "Italianno", cursive;
+        color: #FF9C9C;
+}
+
+    
+    .pg3-ip{
+        color: #FF9C9C;
+        font-weight: bold;
+        font-size: 60px;  
+        font-family: "Italianno", cursive;
+    }
+
+    @media(max-width: 768px){
+        .pg3-upload{
+            display: none;
+        }
+        .pg3-ip{
+            color: #FF9C9C;
+            font-weight: bold;
+            font-size: 40px;  
+            font-family: "Italianno", cursive;
+        }
+        .pg3-input{
+            height: 250px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            position: absolute;
+            top: 200px;
+            left: 120px;
+            padding: 10px;
+        }
+    }
+
+    @media(max-width: 1024px){
+        .pg3-upload{
+            display: none;
+        }
+        .pg3-ip{
+            color: #FF9C9C;
+            font-weight: bold;
+            font-size: 60px;  
+            font-family: "Italianno", cursive;
+        }
+        .pg3-input{
+            height: 550px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            position: absolute;
+            top: 100px;
+            left: 140px;
+            padding: 10px;
+        }
+    }
+
+
+    .pg3-bottom{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0;  /* Stick to the bottom */
+        left: 50%;  /* Center horizontally */
+        transform: translateX(-50%);
+        z-index: 10;
+        border-top: 4px solid #FF9C9C;
+        overflow: hidden;
+      }
+      
+      .pg3-bottom img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    
+.bck-btn{
+    height: 20px;
+    width: 80px;
+    background-color: #FFE5E6;
+    border: 2px solid #FF9C9C;
+    border-radius: 4px;
+    color: #FF9C9C;
+}
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;  /* Stick to the bottom */
+    left: 50%;  /* Center horizontally */
+    transform: translateX(-50%);
+    z-index: 10;
+    border-top: 4px solid #FF9C9C;
+    overflow: hidden;
+  }
+  
+  .bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }

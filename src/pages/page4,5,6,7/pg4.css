@@ -1,0 +1,25 @@
+.mainContainer{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../assets/pg4/Tv.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.countdown{
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    font-family: "Italianno", cursive;
+}
+
+.black-screen{
+    background-color: black;
+    background-image: none;
+}
