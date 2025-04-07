@@ -183,3 +183,14 @@
     object-fit: cover;
     object-position: center;
   }
+
+  .submit-btn{
+    border: 2px solid #FF9C9C;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: #FF9C9C;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
